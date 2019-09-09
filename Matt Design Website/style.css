@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background:url("C:/Users/Abdullah Akbar/Downloads/Matt Design Website/images/patternbg.jpg");
+	background: linear-gradient(45deg black, green);
+	background-blend-mode: multiply;
+}
+
+
+nav.navbar
+{
+	background-color: transparent !important;
+	padding: 0;
+	margin: 0;
+}
+.navbar-nav .nav-item
+{
+	font-family: 'Oswald', sans-serif;
+	color: white !important;
+	font-weight: bold;
+}
+.navbar-nav .nav-item:hover
+{
+	background-color: red;
+	color: white !important;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+}
+.navbar-nav .nav-item a
+{
+	color: white !important;
+	font-size: 20px;
+}
+.navbar-nav .nav-item a:hover
+{
+	color: white !important;
+}
+div.mainHeading h1
+{
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+}
+@media (min-width: 768px)
+{
+	div.bg
+{
+	width: 100%;
+	height: 660px;
+	background: url("images/notebook_Hero.jpg") -1300px -300px no-repeat;
+}
+div.mainContainer
+{
+	max-width: 920px;
+	margin:auto;
+	height: 500px;
+	
+	background: url("images/notebook_Hero.jpg") no-repeat ;
+	background-size: 1000px 300px;
+	background-position:  -1640px -900px !important;
+	box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+}
+.mainContainer h1#designer1
+{
+	padding: 20px 20px 0px 70px;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.mainContainer h1#designer2
+{
+	line-height: 0;
+	padding: 5px 20px 20px 50px;
+	color: white;
+	font-size: 50px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.mainContainer h6#designerLower
+{
+	padding: 0px 0px 0px 65px;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.mainContainer div.lorem
+{
+	width: 350px;
+	text-align: center;
+}
+.mainContainer p.lorem-text
+{
+	color: white;
+}
+.mainContainer button.rdbtn
+{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	border: none;
+	margin: 0px 0px 0px 110px;
+}
+.mainContainer .team
+{
+	width: 920px;
+	height: 500px;
+	background: linear-gradient(180deg, rgba(52,54,52,0.2) ,rgba(43,43,47,1) );
+}
+
+}
+
+@media (max-width: 768px)
+{
+	div.mainContainer
+{
+	max-width: 920px;
+	margin:auto;
+	background: url("images/notebook_Hero.jpg") -1600px -150px;
+	box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.5);
+}
+.mainContainer h1#designer1
+{
+	padding: 20px 20px 0px 10px;
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mainContainer h1#designer2
+{
+	line-height: 0;
+	padding: 5px 20px 20px 50px;
+	color: white;
+	font-size: 50px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mainContainer h6#designerLower
+{
+	padding: 0px 0px 0px 50px;
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.mainContainer div.lorem
+{
+	width: 350px;
+	margin-left: 100px;
+}
+.mainContainer p.lorem-text
+{
+	color: white;
+	text-align: center;
+}
+.mainContainer button.rdbtn
+{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: red;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	border: none;
+	margin: 0px 0px 0px 210px;
+	text-align: center;
+}
+
+}
